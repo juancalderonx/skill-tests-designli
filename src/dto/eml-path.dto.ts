@@ -5,8 +5,11 @@ export class EmlPathDto {
   @ApiProperty({
     name: 'emlPath',
     description: 'Path to eml file',
-    example:
-      'C://Users//developer//Documents//Projects//the-real-challenge//src//sample-mails//eml-with-json.eml',
+    examples: [
+      'C://Users//developer//the-real-challenge//src//sample-mails//eml-with-json.eml',
+      'C://Users//developer//the-real-challenge//src//sample-mails//eml-without-json.eml',
+      'C://Users//developer//the-real-challenge//src//sample-mails//eml-with-text-json.eml',
+    ],
   })
   @IsString()
   emlPath: string;

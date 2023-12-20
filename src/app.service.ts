@@ -20,9 +20,9 @@ export class AppService {
 
     if (jsonContent) return JSON.parse(jsonContent);
 
-    const jsonLink = await this.findJsonLinkInHtml(parsedEmail.textAsHtml);
+    const jsonLink = await this.findJsonLinkInHtml(String(parsedEmail.html));
 
-    if (jsonLink) return this.downloadJson(jsonLink);
+    if (jsonLink !== null) return this.downloadJson(jsonLink);
 
     return parsedEmail;
   }

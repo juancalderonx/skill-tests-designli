@@ -1,0 +1,42 @@
+MIME-Version: 1.0
+Date: Tue, 19 Dec 2023 21:55:50 -0500
+Message-ID: <CAGpLVARZrpsQbk0GeD=JMN8YvNo6mWhQ2EDfB1YskJw4jQKcHg@mail.gmail.com>
+Subject: Test de prueba para Designli
+From: =?UTF-8?Q?Juan_Esteban_Calder=C3=B3n_Ortiz?= <juanescalderon12@gmail.com>
+To: =?UTF-8?Q?Juan_Esteban_Calder=C3=B3n_Ortiz?= <juanescalderon12@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000e4d150060ce81ee2"
+
+--000000000000e4d150060ce81ee2
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hola, si lees esto, es un test de prueba para el reto "the real challenge"
+de Designli.
+
+Aqu=C3=AD hay un archivo JSON adjunto *pero mediante el cuerpo del correo*,=
+ con
+nuestra API hecha en NestJS lo que haremos ser=C3=A1 leer este email en su
+formato *eml *y devolveremos el JSON encontrado. En caso que se lea un
+email sin JSON se devolver=C3=A1 el an=C3=A1lisis del email con mail-parser=
+.
+
+JSON example
+<https://unglo-bucket-develop.s3.us-east-2.amazonaws.com/POSTS/json.json>
+
+Saludos!
+
+--000000000000e4d150060ce81ee2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hola, si lees esto, es un test de prueba para el reto &quo=
+t;the real challenge&quot; de Designli.<div><br></div><div>Aqu=C3=AD hay un=
+ archivo JSON adjunto=C2=A0<b>pero mediante el cuerpo del correo</b>, con n=
+uestra API hecha en NestJS lo que haremos ser=C3=A1 leer este email en su f=
+ormato=C2=A0<b>eml=C2=A0</b>y devolveremos el JSON encontrado. En caso que =
+se lea un email sin JSON se devolver=C3=A1 el an=C3=A1lisis del email con m=
+ail-parser.</div><div><br></div><div><a href=3D"https://unglo-bucket-develo=
+p.s3.us-east-2.amazonaws.com/POSTS/json.json">JSON example</a><br></div><di=
+v><br></div><div>Saludos!</div></div>
+
+--000000000000e4d150060ce81ee2--

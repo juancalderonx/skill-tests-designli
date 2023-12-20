@@ -1,0 +1,51 @@
+MIME-Version: 1.0
+Date: Tue, 19 Dec 2023 20:23:58 -0500
+Message-ID: <CAGpLVATYaF1M_geO4fucp5T5BX-BvJHzSqa35bW7za3=sMM9ZQ@mail.gmail.com>
+Subject: Test de prueba para Designli
+From: =?UTF-8?Q?Juan_Esteban_Calder=C3=B3n_Ortiz?= <juanescalderon12@gmail.com>
+To: =?UTF-8?Q?Juan_Esteban_Calder=C3=B3n_Ortiz?= <juanescalderon12@gmail.com>
+Content-Type: multipart/mixed; boundary="000000000000562a6d060ce6d6f5"
+
+--000000000000562a6d060ce6d6f5
+Content-Type: multipart/alternative; boundary="000000000000562a6b060ce6d6f3"
+
+--000000000000562a6b060ce6d6f3
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hola, si lees esto, es un test de prueba para el reto "the real challenge"
+de Designli.
+
+Aqu=C3=AD hay un archivo JSON adjunto, con nuestra API hecha en NestJS lo q=
+ue
+haremos ser=C3=A1 leer este email en su formato *eml *y devolveremos el JSO=
+N
+encontrado. En caso que se lea un email sin JSON se devolver=C3=A1 el an=C3=
+=A1lisis
+del email con mail-parser.
+
+Saludos!
+
+--000000000000562a6b060ce6d6f3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hola, si lees esto, es un test de prueba para el reto &quo=
+t;the real challenge&quot; de Designli.<div><br></div><div>Aqu=C3=AD hay un=
+ archivo JSON adjunto, con nuestra API hecha en NestJS lo que haremos ser=
+=C3=A1 leer este email en su formato <b>eml </b>y devolveremos el JSON enco=
+ntrado. En caso que se lea un email sin JSON se devolver=C3=A1 el an=C3=A1l=
+isis del email con mail-parser.</div><div><br></div><div>Saludos!</div></di=
+v>
+
+--000000000000562a6b060ce6d6f3--
+--000000000000562a6d060ce6d6f5
+Content-Type: application/json; name="json.json"
+Content-Disposition: attachment; filename="json.json"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_lqd3brpx0
+Content-ID: <f_lqd3brpx0>
+
+ew0KICAgICJza2lsbC10ZXN0IjogIlRoZSByZWFsIGNoYWxsZW5nZSIsDQogICAgImRldmVsb3Bl
+ciI6ICJFc3RlYmFuIENhbGRlcm9uIiwNCiAgICAiaGVsbG8iOiAid29ybGQiDQp9
+--000000000000562a6d060ce6d6f5--

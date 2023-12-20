@@ -77,7 +77,7 @@ export class AppService {
     const response = await fetch(jsonLink);
     if (!response.ok) {
       throw new Error(
-        `Error al descargar el recurso JSON desde ${jsonLink}. Estado: ${response.status}`,
+        `Error downloading JSON resource from ${jsonLink}. Status: ${response.status}`,
       );
     }
 
